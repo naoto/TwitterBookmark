@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @user.name %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%=h @user.comment %>
+</p>
+
+<p>
+  <b>Bookmarkid:</b>
+  <%=h @user.bookmarkid %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

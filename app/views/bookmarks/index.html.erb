@@ -1,0 +1,35 @@
+<h1>Twitter Bookmark 
+<span class="srcbox">
+  <form action="/bookmarks/">
+    URL:http://
+    <input type="text" size="10" name="url" />
+    <input type="submit" value="Search" />
+    <input type="hidden" name="type" value="url" />
+  </form>
+</span>
+</h1>
+<%= will_paginate @bookmarks, :prev_label=>'Prev',:next_label=>'Next' %>
+<hr>
+<span><img src="/images/icon4.gif" /><a href="/bookmarks/?level=1">1User</a></span> &gt; <span><a href="/bookmarks/?level=3">3User</a></span> &gt; <span><a href="/bookmarks/?level=5">5User</a></span>
+
+<div class="main">
+<% for bookmark in @bookmarks %>
+  <div>
+    <div>
+      <a href="<%= bookmark.uri  %>" class="link"><%=h bookmark.title == '' ?bookmark.uri : bookmark.title %></a>
+    </div>
+    <div>
+      <span id="uri"><%=h bookmark.uri %></span>
+      <a href="/Users/?bookmark=<%= bookmark.id%>"><span id="count"><%=h bookmark.count %>Users</span></a>
+      <span class="update">
+        <%= bookmark.updated_at %>
+      </span>
+    </div>
+  </div>
+  <br />
+<% end %>
+</div>
+<br />
+<%= will_paginate @bookmarks, :prev_label=>'Prev',:next_label=>'Next' %>
+<hr>
+<div />

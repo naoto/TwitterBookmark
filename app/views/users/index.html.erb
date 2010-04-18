@@ -1,0 +1,31 @@
+<h1>Twitter Bookmark</h1>
+<hr>
+<div>
+  <div>
+    <img src="http://img.simpleapi.net/small/<%= @bookmark.uri %>" />
+    <br /><br />
+    <div>
+      <span id="name">
+        TITLE:
+      </span>
+      <span>
+        <%= @bookmark.title %>
+      </span>
+    </div>
+  </div>
+  <div>
+    <a href="<%= @bookmark.uri %>"><span id="uri"><%= @bookmark.uri %></span></a>
+    &nbsp;&nbsp;/&nbsp;
+    <span>
+      Date:<%= @bookmark.updated_at %>
+    </span>
+  </div>  
+<div>
+<hr>
+<% for user in @users %>
+  <div>
+    <span id="name"><a href="http://twitter.com/<%= user.name %>"><%=h user.name %></a></span>
+    <span><%=h user.comment %>&nbsp;&nbsp;<span id="time"><%= user.updated_at %></span></span>
+  </div>
+<% end %>
+<br />

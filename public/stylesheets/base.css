@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* reset css 
+------------------------------------------------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,address,ul,ol,li,dl,dt,dd,table,caption,th,td,img,form {
+	margin: 0;
+	padding: 0;
+	border: none;
+	/*list-style-type: none;*/
+ font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+}
+
+img {
+border:none;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+/*  
+------------------------------------------------------------------------------*/
+
+h1 {
+	background:url(../images/b01.gif) repeat-x;
+	height: 30px;
+	padding: 10px 0 0 5px;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+.pagination {
+  background:url(../images/b02.gif) repeat-x;
+	height:30px;
+	padding: 10px 0 0 5px;
+}
+
+.main {
+  border:solid 1px #CCCCCC;
+  margin : 5px 0px;
+  padding : 5px;
+}
+
+.update {
+  color : #CCCCCC;
+}
+
+.link {
+  text-decoration : none;
+}
+
+#count {
+  font-weight : bold;
+}
