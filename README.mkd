@@ -1,0 +1,33 @@
+Usage
+===================================================
+
+[TwitterBookmark](http://otolabo.ddo.jp:300/bookmarks/)
+
+* ./app/script/getrss.rb
+Twitter のタイムラインからURLを収集します.
+
+        ./app/script/getrss.rb http://pcod.no-ip.org/yats/search?query=http&rss
+
+PublicTimeLine が廃止されたため別途サービスの TimeLine の RSS を使用しています.
+
+
+* ./app/script/rebot.rb
+収集した URL からページ情報を取得します.
+
+        ./app/script/rebot.rb
+
+
+-----------------------------------------------------
+
+1. TwitterBookmark とは
+
+        Twitter に貼られた URL を収集して人気のあるサイトをランキング形式で表示します.
+        これにより現在 HOT な話題をイチ早く察知する事ができます.
+        またそのサイトに対し言及している User を一覧で確認できます.
+
+2. TODO
+
+        Hatena API と互換をとる.
+        クロール速度を向上させる.
+          - ページ情報の取得は HEAD で取得する.
+

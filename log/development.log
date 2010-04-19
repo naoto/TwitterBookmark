@@ -5817,3 +5817,454 @@ SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
 Rendering template within layouts/bookmarks
 Rendering bookmarks/index
 Completed in 0.09756 (10 reqs/sec) | Rendering: 0.00832 (8%) | DB: 0.08256 (84%) | 200 OK [http://192.168.11.5/bookmarks/?level=3]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 15:52:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"1", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.482209)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='1' and count<=2) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.038637)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='1' and count<=2) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.53661 (1 reqs/sec) | Rendering: 0.00944 (1%) | DB: 0.52085 (97%) | 200 OK [http://192.168.11.5/bookmarks/?level=1]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 15:52:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"1", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.446381)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='1' and count<=2) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.038351)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='1' and count<=2) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.50036 (1 reqs/sec) | Rendering: 0.00933 (1%) | DB: 0.48473 (96%) | 200 OK [http://192.168.11.5/bookmarks/?level=1]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 15:52:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"1", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.446482)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='1' and count<=2) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.039362)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='1' and count<=2) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.50274 (1 reqs/sec) | Rendering: 0.01000 (1%) | DB: 0.48584 (96%) | 200 OK [http://192.168.11.5/bookmarks/?level=1]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 15:52:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"1", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.498728)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='1' and count<=2) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.038873)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='1' and count<=2) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.55424 (1 reqs/sec) | Rendering: 0.00987 (1%) | DB: 0.53760 (96%) | 200 OK [http://192.168.11.5/bookmarks/?level=1]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 15:54:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"3", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.044097)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='3' and count<=4) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.032565)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='3' and count<=4) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.09107 (10 reqs/sec) | Rendering: 0.00809 (8%) | DB: 0.07666 (84%) | 200 OK [http://192.168.11.5/bookmarks/?level=3]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 16:07:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"3", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.044530)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='3' and count<=4) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.034702)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='3' and count<=4) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.09391 (10 reqs/sec) | Rendering: 0.00831 (8%) | DB: 0.07923 (84%) | 200 OK [http://192.168.11.5/bookmarks/?level=3]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 16:08:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"3", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.046522)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='3' and count<=4) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.033765)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='3' and count<=4) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.15367 (6 reqs/sec) | Rendering: 0.00901 (5%) | DB: 0.08029 (52%) | 200 OK [http://192.168.11.5/bookmarks/?level=3]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 16:41:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"3", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.046771)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='3' and count<=4) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.033726)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='3' and count<=4) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.10431 (9 reqs/sec) | Rendering: 0.01704 (16%) | DB: 0.08050 (77%) | 200 OK [http://192.168.11.5/bookmarks/?level=3]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 16:55:19) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"3", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.046336)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='3' and count<=4) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.033898)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='3' and count<=4) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.09509 (10 reqs/sec) | Rendering: 0.00847 (8%) | DB: 0.08023 (84%) | 200 OK [http://192.168.11.5/bookmarks/?level=3]
+
+
+Processing BookmarksController#index (for 192.168.11.3 at 2010-04-18 16:55:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"level"=>"3", "action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.045497)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>='3' and count<=4) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.033362)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>='3' and count<=4) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.09355 (10 reqs/sec) | Rendering: 0.00843 (9%) | DB: 0.07886 (84%) | 200 OK [http://192.168.11.5/bookmarks/?level=3]
+
+
+Processing BookmarksController#show (for 203.181.22.125 at 2010-04-19 13:08:46) [GET]
+  Session ID: c6ecade6cb33912e589a2cfc689d449c
+  Parameters: {"action"=>"show", "id"=>"index", "controller"=>"bookmarks"}
+Rendering template within layouts/bookmarks
+Rendering bookmarks/show
+
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of bookmarks/show.html.erb:
+1: <p>
+2:   <b>Id:</b>
+3:   <%=h @bookmark.id %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/bookmarks/show.html.erb:3:in `_run_erb_47app47views47bookmarks47show46html46erb'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render_with_no_layout'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1168:in `perform_action_without_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /home/naoto/.gem/ruby/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /home/naoto/.gem/ruby/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BookmarksController#show (for 203.181.22.125 at 2010-04-19 13:08:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"action"=>"show", "id"=>"index", "controller"=>"bookmarks"}
+Rendering template within layouts/bookmarks
+Rendering bookmarks/show
+
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of bookmarks/show.html.erb:
+1: <p>
+2:   <b>Id:</b>
+3:   <%=h @bookmark.id %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/bookmarks/show.html.erb:3:in `_run_erb_47app47views47bookmarks47show46html46erb'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render_with_no_layout'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1168:in `perform_action_without_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /home/naoto/.gem/ruby/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /home/naoto/.gem/ruby/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BookmarksController#show (for 203.181.22.125 at 2010-04-19 13:08:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"action"=>"show", "id"=>"index", "controller"=>"bookmarks"}
+Rendering template within layouts/bookmarks
+Rendering bookmarks/show
+
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of bookmarks/show.html.erb:
+1: <p>
+2:   <b>Id:</b>
+3:   <%=h @bookmark.id %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/bookmarks/show.html.erb:3:in `_run_erb_47app47views47bookmarks47show46html46erb'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render_with_no_layout'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1168:in `perform_action_without_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /home/naoto/.gem/ruby/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /home/naoto/.gem/ruby/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BookmarksController#index (for 203.181.22.125 at 2010-04-19 13:09:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.066198)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>=3 and count<=4) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.034665)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>=3 and count<=4) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.11557 (8 reqs/sec) | Rendering: 0.00825 (7%) | DB: 0.10086 (87%) | 200 OK [http://otolabo.ddo.jp/bookmarks/]
+
+
+Processing BookmarksController#show (for 203.181.22.125 at 2010-04-19 13:09:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"action"=>"show", "id"=>"index", "controller"=>"bookmarks"}
+Rendering template within layouts/bookmarks
+Rendering bookmarks/show
+
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of bookmarks/show.html.erb:
+1: <p>
+2:   <b>Id:</b>
+3:   <%=h @bookmark.id %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/bookmarks/show.html.erb:3:in `_run_erb_47app47views47bookmarks47show46html46erb'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render_with_no_layout'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1168:in `perform_action_without_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /home/naoto/.gem/ruby/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /home/naoto/.gem/ruby/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/naoto/.gem/ruby/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /home/naoto/.gem/ruby/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/naoto/.gem/ruby/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BookmarksController#index (for 203.181.22.125 at 2010-04-19 13:09:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--6f61ca9beb2d5ab25c1f81c5b2046a608a2095c0
+  Parameters: {"action"=>"index", "controller"=>"bookmarks"}
+  [4;36;1mBookmark Load (0.047743)[0m   [0;1mSELECT * FROM "bookmarks" WHERE (count>=3 and count<=4) ORDER BY strftime('%Y%m%d%H%M',updated_at) DESC,count DESC LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.035121)[0m   [0mSELECT count(*) AS count_all FROM "bookmarks" WHERE (count>=3 and count<=4) [0m
+Rendering template within layouts/bookmarks
+Rendering bookmarks/index
+Completed in 0.09786 (10 reqs/sec) | Rendering: 0.00824 (8%) | DB: 0.08286 (84%) | 200 OK [http://otolabo.ddo.jp/bookmarks/]
